@@ -21,3 +21,8 @@ const productos = JSON.parse(lista);
 
 // Listar los productos
 productos.forEach(item => console.log(item.producto));
+
+
+
+
+
