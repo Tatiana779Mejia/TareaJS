@@ -18,3 +18,13 @@ return error.message;
   } catch (error) {
     console.log("Error capturado:", error.message);
   }
+//desafio
+
+
+try {
+throw new Error("Algo salió mal");  
+} catch (error) {
+console.log("Se atrapó un error: " + error.message); 
+} finally {
+console.log("Este mensaje siempre se imprime."); 
+}

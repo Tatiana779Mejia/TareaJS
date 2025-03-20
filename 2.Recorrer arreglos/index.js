@@ -3,11 +3,10 @@ const numeros = [3, 7, 2, 9, 5];
 let suma = 0;
 
 for (let i = 0; i < numeros.length; i++) {
-    suma += numeros[i];
+suma += numeros[i];
 }
 
 console.log("La suma es:", suma);
-
 //número mayor 
 const num = [12, 45, 6, 89, 23];
 const mayor = Math.max(num);
